@@ -8,6 +8,7 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
+csv
 
 # tests/linter
 black
@@ -27,3 +28,12 @@ six>=1.14
 joblib
 memoized-property
 termcolor
+
+# Twitter
+tweetpy
+python-dotenv
+
+#Model
+urllib.request
+tensorflow
+transformers
