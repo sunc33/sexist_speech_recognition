@@ -1,6 +1,7 @@
 *.egg-info
 .coverage
 .ipynb_checkpoints
+.python-version
 .DS_Store
 raw_data/
 *.csv
