@@ -29,7 +29,6 @@ memoized-property
 termcolor
 
 # Twitter
-tweetpy
 python-dotenv
 
 #Model
