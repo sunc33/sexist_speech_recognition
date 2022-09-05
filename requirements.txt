@@ -37,3 +37,7 @@ python-dotenv
 urllib.request
 tensorflow
 transformers
+
+#streamlit
+streamlit
+requests
