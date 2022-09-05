@@ -8,7 +8,6 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
-csv
 
 # tests/linter
 black
