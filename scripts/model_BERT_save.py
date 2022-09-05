@@ -55,3 +55,6 @@ def pred_with_load_model(model, tweet_preproc):
     """
     prediction = model.predict(tweet_preproc)
     return prediction
+
+def predicator(prediction,threshold):
+    return np.where(prediction>=threshold,1,0)

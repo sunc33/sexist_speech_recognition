@@ -10,5 +10,8 @@ print(data_preproc)
 
 # model_BERT_save
 model = load_trained_model()
+threshold = 0.66
 prediction = pred_with_load_model(model, data_preproc)
-print(prediction)
+print(f'Resultats de prediction = ', prediction)
+prediction_threshold = predicator(prediction,threshold)
+print(f'Resultats de prediction avec threshold de 0,66 = ', prediction_threshold)
