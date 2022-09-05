@@ -32,7 +32,7 @@ termcolor
 python-dotenv
 
 #Model
-urllib.request
+#urllib.request
 tensorflow
 transformers
 
