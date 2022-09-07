@@ -12,3 +12,4 @@ model.joblib
 *.h5
 *.png
 *.jpg
+*.keep
