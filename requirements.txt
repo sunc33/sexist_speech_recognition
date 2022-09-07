@@ -8,7 +8,6 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
-csv
 
 # tests/linter
 black
@@ -30,10 +29,14 @@ memoized-property
 termcolor
 
 # Twitter
-tweetpy
 python-dotenv
 
 #Model
-urllib.request
+#urllib.request
 tensorflow
 transformers
+
+#streamlit
+streamlit
+requests
+plotly

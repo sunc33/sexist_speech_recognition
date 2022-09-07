@@ -9,3 +9,6 @@ raw_data/
 .env
 .python-version
 model.joblib
+*.h5
+*.png
+*.jpg

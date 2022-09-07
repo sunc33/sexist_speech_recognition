@@ -13,21 +13,17 @@ import urllib.request
 from transformers import AutoTokenizer
 import string
 
-
 MODEL = f"cardiffnlp/twitter-roberta-base-hate"
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
 
-def load_csv(path=''):
+def load_csv(path): #path=''
     """
         Import the DataFrame and made the preprocessing. First column will be
         the user ID and second column text of the tweet (named by 'text').
         ATTENTION IL FAUDRA BIEN METTRE A JOUR LE NOM DU CSV
         """
-
-    ##PATH universel
-    path = os.path.join(os.path.dirname(__file__), "../sexist_speech_recognition/raw_data")  #data_complet.csv
     df = pd.read_csv(path)
-    return df['text']
+    return df
 
 def cleaning(sentence):
     """
@@ -50,27 +46,16 @@ def token(df,tokenizer):
     """
         This function tokenise the new_X_text
         """
-    tokens_test= tokenizer(list(df[0]), return_tensors='tf', truncation=True, padding=True,max_length=150)
+    tokens_test= tokenizer(list(df['text_clean']), return_tensors='tf', truncation=True, max_length=150, padding='max_length')
     X_tokenize = tokens_test.data
 
     return X_tokenize
 
-
-def full_preproc():
+def full_preproc(path):
     """
         This function made the full preprocessing and tokenize before returning X_token
         """
-    twt = load_csv()
-    sentences = []
-    for i in twt:
-        sentences.append(cleaning(i))
-
-    df = pd.DataFrame(sentences)
+    df = load_csv(path)
+    df['text_clean'] = df['text'].apply(cleaning)
     X_token = token(df, tokenizer)
     return X_token
-
-
-
-
-X = full_preproc()
-print(X)
