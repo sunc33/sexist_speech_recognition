@@ -4,12 +4,11 @@
 .python-version
 .DS_Store
 raw_data/
-*.csv
+
 **/__pycache__/
 .env
 .python-version
 model.joblib
 *.h5
-*.png
-*.jpg
+
 *.keep
