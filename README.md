@@ -19,9 +19,11 @@ Ce repository a été créé dans le cadre d’une formation en Data Science dis
 ## Sources :
 
 * Pour la création de la base consolidée :
-`*[“The 'Call me sexist but' Dataset (CMSB)”](https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251), Samory Mattia, GESIS - Leibniz-Institut für Sozialwissenschaften.`
-`*[“]AI ML NIT Patna @ TRAC - 2: Deep Learning Approach for Multi-lingual Aggression Identification”](https://docs.google.com/forms/d/e/1FAIpQLSesLjGKLQlE3dmQNZUEl5QJVno7NngeLTP9XvIMCvpZu7sXNg/viewform), Kirti Kumari & Jyoti Prakash Singh, National Institute of Technology Patna.`
-`*[“North American Chapter of the Association for Computaitional Linguistics(NAACL)”](https://github.com/zeeraktalat/hatespeech), [Zeerak Talat](https://github.com/zeeraktalat).`
+`* [“The 'Call me sexist but' Dataset (CMSB)”](https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251), Samory Mattia, GESIS - Leibniz-Institut für Sozialwissenschaften.`
+
+`* [“AI ML NIT Patna @ TRAC - 2: Deep Learning Approach for Multi-lingual Aggression Identification”](https://docs.google.com/forms/d/e/1FAIpQLSesLjGKLQlE3dmQNZUEl5QJVno7NngeLTP9XvIMCvpZu7sXNg/viewform), Kirti Kumari & Jyoti Prakash Singh, National Institute of Technology Patna.`
+
+`* [“North American Chapter of the Association for Computaitional Linguistics(NAACL)”](https://github.com/zeeraktalat/hatespeech), [Zeerak Talat](https://github.com/zeeraktalat).`
 
 * Pour la création des datasets d’analyse : Reddit Social Media & Twitter.
 
